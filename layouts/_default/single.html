@@ -1,0 +1,30 @@
+{{ define "title" }}
+    {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+    <div class="content-big">
+        <h1>{{ .Title }}</h1>
+        {{ if .Param "cover" }}<p><img src="{{ .Params.Cover }}" alt="{{ .Params.CoverDescription }}"></p>{{ end }}
+        <small><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time></small>
+        {{ .Content }}
+        {{ if .Param "enablecomments" }}
+            <div class="giscus"><i>Um... You should have seen comments in place of this text, but you have disabled JavaScript. Oh well...</i></div>
+            <script src="https://giscus.app/client.js"
+                data-repo="dsrev/dsrev"
+                data-repo-id="MDEwOlJlcG9zaXRvcnkyODkzMDU1MDc="
+                data-category="Announcements"
+                data-category-id="DIC_kwDOET5zo84CAOvN"
+                data-mapping="pathname"
+                data-strict="1"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="preferred_color_scheme"
+                data-lang="{{ .Site.Language }}"
+                data-loading="lazy"
+                crossorigin="anonymous"
+                async>
+            </script>
+        {{ end }}
+    </div>
+{{ end }}

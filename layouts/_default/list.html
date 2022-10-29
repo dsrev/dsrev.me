@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <div class="content-big">
+        <header><h1>Posts</h1></header>
+        {{ range .Pages }}
+            <article>
+                <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
+                <small><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time> - </small>
+                {{ .Summary | truncate 100 }}
+            </article>
+        {{ end }}
+    </div>
+{{ end }}

@@ -1,0 +1,19 @@
+baseURL = "https://dsrev.me/"
+title = "Ilya Prokopenko"
+theme = "hugo-redirect"
+
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
+        title = "Ilya Prokopenko"
+        languageName = "English"
+        weight = 1
+    [language.ru]
+        title = "Илья Прокопенко"
+        languageName = "Русский"
+        weight = 2
+
+[markup]
+    [markup.highlight]
+        style = "paraiso-dark"
