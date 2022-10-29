@@ -1,0 +1,109 @@
+/* when ready for prod, minify the file with https://refresh-sf.com/ - ds */
+
+@import url('/assets/css/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #121212;
+    color: #EDEDED;
+    line-height: 1.5;
+}
+
+hr {
+    height: 1px !important;
+    border: 0;
+    background-color: #EDEDED;
+}
+
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+a {
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+a:hover, .link {
+    text-decoration: underline;
+}
+
+.content {
+    margin: auto;
+    max-width: 520px;
+    padding: 20px;
+}
+
+.content-big {
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 45px;
+}
+
+.logo-big {
+    width: 450px;
+}
+
+.socials a {
+    padding: 5px;
+    color: #EDEDED;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+pre {
+    overflow: auto;
+    /* https://xyproto.github.io/splash/docs/paraiso-dark.html */
+    background-color: #2f1e2e;
+    color: #e7e9db;
+    padding: 1.5em;
+    border-radius: 0.5em;
+}
+
+.light-mode {
+    background-color: #EDEDED;
+    color: #121212;
+}
+
+.light-mode .logo, .light-mode .logo-big {
+    -webkit-filter: invert();
+            filter: invert();
+}
+
+.light-mode a {
+    color: #121212;
+}
+
+.light-mode .socials a {
+    color: #121212;
+}
+
+.light-mode hr {
+    background-color: #121212;
+}
