@@ -3,6 +3,7 @@
 —ᆺ—
 
 ## To-do
+- [ ] Better footer
 - [ ] Good template
 - [ ] Better i18n
 - [ ] Rework CSS style
