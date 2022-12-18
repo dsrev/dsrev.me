@@ -5,6 +5,7 @@ draft: false
 enablecomments: false
 cover: wslpfetch.png
 coverdescription: 'Screenshot of Windows Terminal window with Ubuntu distribution on WSL 2 open. In the terminal itself open "pfetch", which displays minimal information about the distribution.'
+showdate: true
 categories:
   - 'Windows'
 tags:

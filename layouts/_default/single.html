@@ -5,7 +5,7 @@
     <div class="content-big">
         <h1>{{ .Title }}</h1>
         {{ if .Param "cover" }}<p><img src="{{ .Params.Cover }}" alt="{{ .Params.CoverDescription }}"></p>{{ end }}
-        <small><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time></small>
+        {{ if .Param "showdate" }}<small><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time></small>{{ end }}
         {{ .Content }}
         {{ if .Param "enablecomments" }}
             <div class="giscus"><i>Um... You should have seen comments in place of this text, but you have disabled JavaScript. Oh well...</i></div>

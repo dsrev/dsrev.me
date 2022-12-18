@@ -5,6 +5,7 @@ draft: false
 enablecomments: true
 cover: coolcover.png
 coverdescription: "a meaningful description"
+showdate: true
 categories:
   - 'Cool category'
 tags:
