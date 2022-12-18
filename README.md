@@ -3,11 +3,11 @@
 —ᆺ—
 
 ## To-do
-- [ ] Better footer
 - [ ] Good template
 - [ ] Better i18n
 - [ ] Rework CSS style
 - [ ] Meta tags
+- [x] Better ~~footer~~ working dark mode
 - [x] Toggle Dark Mode
 - [x] Blog
 - [x] New style website (something similar to ilyap.ru, but with expanded functionality \[?\]) \[almost ready I guess\]
