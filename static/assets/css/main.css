@@ -1,4 +1,4 @@
-/* when ready for prod, minify the file with https://refresh-sf.com/ - ds */
+/* when ready for prod, minify the file with https://clean-css.github.io/ - ds */
 
 @import url('/assets/css/inter/inter.css');
 
@@ -48,7 +48,7 @@ a:hover, .link {
 
 .content {
     margin: auto;
-    max-width: 520px;
+    max-width: 540px;
     padding: 20px;
 }
 

@@ -1,6 +1,6 @@
 baseURL = "https://dsrev.me/"
 title = "Ilya Prokopenko"
-theme = "hugo-redirect"
+theme = ["hugo-cloak-email", "hugo-notice", "hugo-redirect"]
 
 DefaultContentLanguage = "en"
 

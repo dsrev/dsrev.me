@@ -10,8 +10,8 @@ I'll leave the rest here that didn't make to the home page.
 
 ### Contact privately
 
-- **E-mail:** hi[@]dsrev[dot]me
-- **XMPP:**: dsrev[at]disroot[.]org
+- **E-mail:** {{< cloakemail address="hi@dsrev.me" >}}
+- **XMPP:**: {{< cloakemail address="dsrev@disroot.org" protocol="xmpp" >}}
 - **Telegram:** [@xen957](https://t.me/xen957)
 - **Matrix:** [@dsrev:matrix.org](https://matrix.to/#/@dsrev:matrix.org)
 
